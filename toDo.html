@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>toDo List</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+</head>
+
+<body>
+    <h1>toDos</h1>
+    <form id="form">
+        <input type="text" class="input" id="input" placeholder="Enter your toDos" autocomplete="off">
+        <div class="toDos" id="toDos"></div>
+        <div>
+            <button class="form-button" type="clear" id="clear">Clear Completed</button>
+            <button class="form-button" type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+    <small><b>Left click</b> to toggle completed. <b>Right click</b> to delete todo</small>
+</body>
+<script src="./script.js"></script>
+
+</html>
