@@ -108,7 +108,10 @@ small {
 
 @media (max-width:520px)
     {
-        form(width: 95%);
+         form{
+        
+        width: 95%;
+    }
 }
         
         
