@@ -58,10 +58,6 @@ function addtoDo(toDo) {
     }
 }
 
-new Sortable(todosUL, {
-    animation: 350,
-})
-
 // todosUL.addEventListener('change',()=>{
 //   updateLS();
 // })
